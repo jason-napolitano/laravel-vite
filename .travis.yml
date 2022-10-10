@@ -7,8 +7,8 @@ before_script:
   - cp .env.example .env
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
-  - composer key
-  - composer build
+  - php artisan key:generate
+  - php artisan migrate:fresh --seed --seeder=PermissionSeeder
   - npm install
   - npm run build
 

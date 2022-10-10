@@ -41,10 +41,6 @@
     }
   },
   "scripts": {
-    "key": "php artisan key:generate",
-    "link": "php artisan storage:link",
-    "build": "composer migrate && php artisan db:seed && composer optimize",
-    "migrate": "php artisan migrate:fresh",
     "optimize": "php artisan optimize:clear",
     "pint": "./vendor/bin/pint",
     "post-autoload-dump": [
