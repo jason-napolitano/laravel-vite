@@ -9,8 +9,6 @@ before_script:
   - composer install --prefer-source --no-interaction --dev
   - php artisan key:generate
   - php artisan migrate:fresh --seed --seeder=PermissionSeeder
-  - npm install
-  - npm run build
 
 script:
   - php artisan test
