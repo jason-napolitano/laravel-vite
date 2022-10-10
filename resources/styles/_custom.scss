@@ -1,0 +1,13 @@
+#app,
+html,
+body {
+  /* Create the parallax scrolling effect */
+  // background: url("/img/background.jpg") no-repeat fixed center;
+  // background-size: cover;
+  background: #ececec;
+  font-family: 'AppFont', 'Raleway', 'Calibri Light', sans-serif;
+}
+
+.cursor-default {
+  cursor: default !important;
+}

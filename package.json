@@ -1,0 +1,36 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "prettify": "prettier ./resources"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.1.2",
+        "@vue/compiler-sfc": "^3.2.40",
+        "prettier": "^2.6.2",
+        "sass": "^1.32.11",
+        "vite": "^3.1.6",
+        "vite-plugin-laravel": "^0.2.2"
+    },
+    "dependencies": {
+        "@element-plus/icons-vue": "^1.1.4",
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-brands-svg-icons": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/vue-fontawesome": "^3.0.0-5",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@vueuse/core": "^8.2.5",
+        "animate.css": "^4.1.1",
+        "bootstrap": "^5.2.2",
+        "dayjs": "^1.11.3",
+        "element-plus": "^2.2.17",
+        "localforage": "^1.10.0",
+        "primeflex": "^3.2.1",
+        "underscore": "^1.13.4",
+        "vue": "^3.2.36"
+    }
+}

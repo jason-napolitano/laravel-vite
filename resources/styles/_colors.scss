@@ -1,0 +1,394 @@
+$color-black: #000000;
+$color-dark: #222222;
+$color-charcoal: #333333;
+$color-white: #ffffff;
+$color-offwhite: #e5e5e5;
+$color-barely-white: #fcfcfc;
+$color-barely-grey: #f9f9f9;
+$color-clouds: #f7f7f7;
+$color-tin: #eeeeee;
+$color-silver: #bdc3c7;
+$color-concrete: #95a5a6;
+$color-asbestos: #7f8c8d;
+$color-tan: #d1dbbd;
+$color-pewter: #91aa9d;
+$color-moonlight: #3e606f;
+$color-deepocean: #193441;
+$color-turquoise: #1abc9c;
+$color-aqua: #16a085;
+$color-grass: #89ac56;
+$color-highlighter: #ffeb9b;
+$color-sunflower: #f1c40f;
+$color-orange: #f39c12;
+$color-sienna: #bf4e19;
+$color-milanored: #ac1c00;
+$color-river: #3498db;
+$color-marina: #2980b9;
+$color-deco: #c9d787;
+$color-crete: #7d8a2e;
+$color-guardsman: #d90000;
+$color-pomegranate: #c0392b;
+$color-finn: #723147;
+$color-lime: #c5ffac;
+$color-tamarind: #31152b;
+$color-deep-purple: #36246d;
+$color-salmon: #ffb598;
+$color-flat-blue: #71a6d0;
+$color-flat-green: #7dbf60;
+$color-flat-red: #d04648;
+$color-flat-orange: #d0a153;
+$color-coffee: #4e3535;
+$color-brown: #4a2a2a;
+
+// background colors
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-black {
+  background-color: $color-black;
+}
+.bg-dark {
+  background-color: $color-black;
+}
+.bg-charcoal {
+  background-color: $color-charcoal;
+}
+.bg-white {
+  background-color: $color-white;
+}
+.bg-barely-white {
+  background-color: $color-barely-white;
+}
+.bg-offwhite {
+  background-color: $color-offwhite;
+}
+.bg-barely-grey {
+  background-color: $color-barely-grey;
+}
+.bg-clouds {
+  background-color: $color-clouds;
+}
+.bg-tin {
+  background-color: $color-tin;
+}
+.bg-silver {
+  background-color: $color-silver;
+}
+.bg-concrete {
+  background-color: $color-concrete;
+}
+.bg-asbestos {
+  background-color: $color-asbestos;
+}
+.bg-tan {
+  background-color: $color-tan;
+}
+.bg-pewter {
+  background-color: $color-pewter;
+}
+.bg-salmon {
+  background-color: $color-salmon;
+}
+.bg-moonlight {
+  background-color: $color-moonlight;
+}
+.bg-deepocean {
+  background-color: $color-deepocean;
+}
+.bg-turquoise {
+  background-color: $color-turquoise;
+}
+.bg-aqua {
+  background-color: $color-aqua;
+}
+.bg-highlighter {
+  background-color: $color-highlighter;
+}
+.bg-sunflower {
+  background-color: $color-sunflower;
+}
+.bg-grass {
+  background-color: $color-grass;
+}
+.bg-orange {
+  background-color: $color-orange;
+}
+.bg-sienna {
+  background-color: $color-sienna;
+}
+.bg-milanored {
+  background-color: $color-milanored;
+}
+.bg-river {
+  background-color: $color-river;
+}
+.bg-marina {
+  background-color: $color-marina;
+}
+.bg-deco {
+  background-color: $color-deco;
+}
+.bg-crete {
+  background-color: $color-crete;
+}
+.bg-lime {
+  background-color: $color-lime;
+}
+.bg-guardsman {
+  background-color: $color-guardsman;
+}
+.bg-pomegranate {
+  background-color: $color-pomegranate;
+}
+.bg-finn {
+  background-color: $color-finn;
+}
+.bg-tamarind {
+  background-color: $color-tamarind;
+}
+.bg-deep-purple {
+  background-color: $color-deep-purple;
+}
+
+.bg-info-flat {
+  background-color: $color-flat-blue;
+}
+
+.bg-danger-flat {
+  background-color: $color-flat-red;
+}
+
+.bg-warning-flat {
+  background-color: $color-flat-orange;
+}
+
+.bg-success-flat {
+  background-color: $color-flat-green;
+}
+
+// TEXT COLORS
+.text-black {
+  color: $color-black;
+}
+.text-charcoal {
+  color: $color-charcoal;
+}
+.text-white {
+  color: $color-white;
+}
+.text-barely-white {
+  color: $color-barely-white;
+}
+.text-offwhite {
+  color: $color-offwhite;
+}
+.text-barely-grey {
+  color: $color-barely-grey;
+}
+.text-clouds {
+  color: $color-clouds;
+}
+.text-tin {
+  color: $color-tin;
+}
+.text-silver {
+  color: $color-silver;
+}
+.text-concrete {
+  color: $color-concrete;
+}
+.text-asbestos {
+  color: $color-asbestos;
+}
+.text-tan {
+  color: $color-tan;
+}
+.text-pewter {
+  color: $color-pewter;
+}
+.text-salmon {
+  color: $color-salmon;
+}
+.text-moonlight {
+  color: $color-moonlight;
+}
+.text-deepocean {
+  color: $color-deepocean;
+}
+.text-turquoise {
+  color: $color-turquoise;
+}
+.text-aqua {
+  color: $color-aqua;
+}
+.text-grass {
+  color: $color-grass;
+}
+.text-sunflower {
+  color: $color-sunflower;
+}
+.text-orange {
+  color: $color-orange;
+}
+.text-sienna {
+  color: $color-sienna;
+}
+.text-milanored {
+  color: $color-milanored;
+}
+.text-river {
+  color: $color-river;
+}
+.text-marina {
+  color: $color-marina;
+}
+.text-deco {
+  color: $color-deco;
+}
+.text-crete {
+  color: $color-crete;
+}
+.text-guardsman {
+  color: $color-guardsman;
+}
+.text-pomegranate {
+  color: $color-pomegranate;
+}
+.text-finn {
+  color: $color-finn;
+}
+.text-tamarind {
+  color: $color-tamarind;
+}
+.text-deep-purple {
+  color: $color-deep-purple;
+}
+
+.text-info-flat {
+  color: $color-flat-blue;
+}
+
+.text-danger-flat {
+  color: $color-flat-red;
+}
+
+.text-warning-flat {
+  color: $color-flat-orange;
+}
+
+.text-success-flat {
+  color: $color-flat-green;
+}
+
+// BORDER COLORS
+.border-black {
+  border-color: $color-black;
+}
+.border-charcoal {
+  border-color: $color-charcoal;
+}
+.border-white {
+  border-color: $color-white;
+}
+.border-barely-white {
+  border-color: $color-barely-white;
+}
+.border-offwhite {
+  border-color: $color-offwhite;
+}
+.border-barely-grey {
+  border-color: $color-barely-grey;
+}
+.border-clouds {
+  border-color: $color-clouds;
+}
+.border-tin {
+  border-color: $color-tin;
+}
+.border-silver {
+  border-color: $color-silver;
+}
+.border-concrete {
+  border-color: $color-concrete;
+}
+.border-asbestos {
+  border-color: $color-asbestos;
+}
+.border-tan {
+  border-color: $color-tan;
+}
+.border-pewter {
+  border-color: $color-pewter;
+}
+.border-salmon {
+  border-color: $color-salmon;
+}
+.border-moonlight {
+  border-color: $color-moonlight;
+}
+.border-deepocean {
+  border-color: $color-deepocean;
+}
+.border-turquoise {
+  border-color: $color-turquoise;
+}
+.border-aqua {
+  border-color: $color-aqua;
+}
+.border-grass {
+  border-color: $color-grass;
+}
+.border-sunflower {
+  border-color: $color-sunflower;
+}
+.border-orange {
+  border-color: $color-orange;
+}
+.border-sienna {
+  border-color: $color-sienna;
+}
+.border-milanored {
+  border-color: $color-milanored;
+}
+.border-river {
+  border-color: $color-river;
+}
+.border-marina {
+  border-color: $color-marina;
+}
+.border-deco {
+  border-color: $color-deco;
+}
+.border-crete {
+  border-color: $color-crete;
+}
+.border-guardsman {
+  border-color: $color-guardsman;
+}
+.border-pomegranate {
+  border-color: $color-pomegranate;
+}
+.border-finn {
+  border-color: $color-finn;
+}
+.border-tamarind {
+  border-color: $color-tamarind;
+}
+.border-deep-purple {
+  border-color: $color-deep-purple;
+}
+.border-info-flat {
+  border-color: $color-flat-blue;
+}
+
+.border-danger-flat {
+  border-color: $color-flat-red;
+}
+
+.border-warning-flat {
+  border-color: $color-flat-orange;
+}
+
+.border-success-flat {
+  border-color: $color-flat-green;
+}
