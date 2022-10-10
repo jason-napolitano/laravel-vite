@@ -9,7 +9,7 @@ use Tests\TestCase;
 class RegistrationTest extends TestCase
 {
     use ResetDatabase;
-	
+
     public function testRegistrationProcessCompletesWithCorrectCredentials(): void
     {
         $this
@@ -20,7 +20,7 @@ class RegistrationTest extends TestCase
                 fn (AssertableInertia $page) => $page->where('errors', [])
             );
     }
-	
+
     public function testRegistrationProcessFailsWithNoFormData(): void
     {
         $this
@@ -35,7 +35,7 @@ class RegistrationTest extends TestCase
                     ->where('errors.password', 'The password field is required.')
             );
     }
-	
+
     public function testRegistrationPageRendersCorrectly(): void
     {
         $this

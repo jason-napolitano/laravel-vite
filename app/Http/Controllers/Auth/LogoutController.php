@@ -10,13 +10,13 @@ use App\Providers\RouteServiceProvider;
 
 class LogoutController extends Controller
 {
-	/**
-	 * Perform the logout action
-	 *
-	 * @param \Illuminate\Http\Request $request
-	 *
-	 * @return \Illuminate\Http\RedirectResponse
-	 */
+    /**
+     * Perform the logout action
+     *
+     * @param \Illuminate\Http\Request $request
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function __invoke(Request $request): RedirectResponse
     {
         // Logout of account

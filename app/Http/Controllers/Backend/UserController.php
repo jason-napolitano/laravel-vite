@@ -9,17 +9,17 @@ use App\Http\Controllers\Controller;
 
 class UserController extends Controller
 {
-	/**
-	 * Load the correct view
-	 *
-	 * @return \Inertia\Response
-	 */
+    /**
+     * Load the correct view
+     *
+     * @return \Inertia\Response
+     */
     public function __invoke(): Response
     {
-		// User data
+        // User data
         $users = User::paginate(5);
-		
-		// Render the view [with data]
+
+        // Render the view [with data]
         return Render::backend('users', [
             'users' => $users
         ]);
