@@ -19,7 +19,7 @@ trait ResetDatabase
     protected function refreshTestDatabase(): void
     {
         if (!RefreshDatabaseState::$migrated) {
-            $this->artisan('migrate:fresh --seed --seeder=PermissionSeeder');
+            $this->artisan('migrate:fresh --seed');
             $this->app[Kernel::class]->setArtisan(null);
             RefreshDatabaseState::$migrated = true;
         }
