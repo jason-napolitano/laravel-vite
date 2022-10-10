@@ -1,6 +1,6 @@
 > Laravel, Vite, Typescript and Vue
 
-[Version 1.0](https://github.com/jason-napolitano/laravel-vite/releases/tag/1.0) [![Build Status](https://app.travis-ci.com/jason-napolitano/laravel-vite.svg?branch=main)](https://app.travis-ci.com/jason-napolitano/laravel-vite)
+[![Build Status](https://app.travis-ci.com/jason-napolitano/laravel-vite.svg?branch=main)](https://app.travis-ci.com/jason-napolitano/laravel-vite)
 
 ## Install, Run & Optimize
 - Before running the commands below, copy the `.env.example` file to `.env` and change your settings (database, app title, etc)
