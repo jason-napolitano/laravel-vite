@@ -1,0 +1,22 @@
+language: php
+
+php:
+  - 8.1
+
+before_script:
+  - cp .env.travis .env
+  - composer self-update
+  - composer install --prefer-source --no-interaction --dev
+  - composer key
+  - composer build
+  - npm install
+  - npm run build
+
+script:
+  - phpunit
+
+services:
+  - mysql
+
+notifications:
+  email: false
