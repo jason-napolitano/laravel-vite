@@ -51,8 +51,10 @@ $ composer prettify # laravel (psr-12)
 $ npm run prettify  # vue-js (prettier)
 # clear all caches
 $ composer optimize
-# run unit tests
+# server tests
 $ php artisan test
+# client tests
+$ npm run test
 ```
 
 ## Accounts
